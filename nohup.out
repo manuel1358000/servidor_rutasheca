@@ -1,0 +1,63 @@
+Starting servidorrutasheca_basedatos_1
+Starting traducciones
+Attaching to servidorrutasheca_basedatos_1, traducciones
+[36mbasedatos_1  |[0m 2021-01-05 02:57:42+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 8.0.22-1debian10 started.
+[36mbasedatos_1  |[0m 2021-01-05 02:57:42+00:00 [Note] [Entrypoint]: Switching to dedicated user 'mysql'
+[36mbasedatos_1  |[0m 2021-01-05 02:57:43+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 8.0.22-1debian10 started.
+[36mbasedatos_1  |[0m 2021-01-05T02:57:44.130782Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.22) starting as process 1
+[36mbasedatos_1  |[0m 2021-01-05T02:57:44.162339Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+[33mtraducciones |[0m 
+[33mtraducciones |[0m > rutasheca@1.0.0 test /app
+[33mtraducciones |[0m > nodemon index
+[33mtraducciones |[0m 
+[36mbasedatos_1  |[0m 2021-01-05T02:57:44.784645Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+[33mtraducciones |[0m [33m[nodemon] 2.0.4[39m
+[33mtraducciones |[0m [33m[nodemon] to restart at any time, enter `rs`[39m
+[33mtraducciones |[0m [33m[nodemon] watching path(s): *.*[39m
+[33mtraducciones |[0m [33m[nodemon] watching extensions: js,mjs,json[39m
+[33mtraducciones |[0m [32m[nodemon] starting `node index index.js`[39m
+[36mbasedatos_1  |[0m 2021-01-05T02:57:45.100181Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+[36mbasedatos_1  |[0m 2021-01-05T02:57:45.294572Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+[36mbasedatos_1  |[0m 2021-01-05T02:57:45.296363Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+[36mbasedatos_1  |[0m 2021-01-05T02:57:45.302372Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+[36mbasedatos_1  |[0m 2021-01-05T02:57:45.378140Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.22'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+[33mtraducciones |[0m Escuchando en el puesto 3000
+[33mtraducciones |[0m Executing (default): CREATE TABLE IF NOT EXISTS `usuario` (`idUsuario` INTEGER auto_increment UNIQUE , `nombres` VARCHAR(255), `especialidad` VARCHAR(1000), `direccion` VARCHAR(1000), `descripcion` VARCHAR(5000), `logo` VARCHAR(255), `telefono` VARCHAR(350), `propietario` VARCHAR(350), `fotografia` VARCHAR(1000), `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, PRIMARY KEY (`idUsuario`)) ENGINE=InnoDB;
+[33mtraducciones |[0m Executing (default): SHOW INDEX FROM `usuario`
+[36mbasedatos_1  |[0m mbind: Operation not permitted
+[33mtraducciones |[0m Tablas Creadas
+[33mtraducciones |[0m npm ERR! Test failed.  See above for more details.
+[33mtraducciones exited with code 1
+[0m[36mbasedatos_1  |[0m 2021-01-06T02:17:17.161704Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.22).
+[36mbasedatos_1  |[0m 2021-01-06T02:17:18.234241Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.22)  MySQL Community Server - GPL.
+[36mservidorrutasheca_basedatos_1 exited with code 0
+[0mStarting servidorrutasheca_basedatos_1
+Starting traducciones
+Attaching to servidorrutasheca_basedatos_1, traducciones
+[36mbasedatos_1  |[0m 2021-01-17 06:29:53+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 8.0.22-1debian10 started.
+[36mbasedatos_1  |[0m 2021-01-17 06:29:53+00:00 [Note] [Entrypoint]: Switching to dedicated user 'mysql'
+[36mbasedatos_1  |[0m 2021-01-17 06:29:53+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 8.0.22-1debian10 started.
+[36mbasedatos_1  |[0m 2021-01-17T06:29:54.515339Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.22) starting as process 1
+[36mbasedatos_1  |[0m 2021-01-17T06:29:54.557836Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+[33mtraducciones |[0m 
+[33mtraducciones |[0m > rutasheca@1.0.0 test /app
+[33mtraducciones |[0m > nodemon index
+[33mtraducciones |[0m 
+[36mbasedatos_1  |[0m 2021-01-17T06:29:55.283345Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+[33mtraducciones |[0m [33m[nodemon] 2.0.4[39m
+[33mtraducciones |[0m [33m[nodemon] to restart at any time, enter `rs`[39m
+[33mtraducciones |[0m [33m[nodemon] watching path(s): *.*[39m
+[33mtraducciones |[0m [33m[nodemon] watching extensions: js,mjs,json[39m
+[33mtraducciones |[0m [32m[nodemon] starting `node index index.js`[39m
+[36mbasedatos_1  |[0m 2021-01-17T06:29:55.681105Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+[36mbasedatos_1  |[0m 2021-01-17T06:29:55.927712Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+[36mbasedatos_1  |[0m 2021-01-17T06:29:55.932094Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+[36mbasedatos_1  |[0m 2021-01-17T06:29:55.935367Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+[36mbasedatos_1  |[0m 2021-01-17T06:29:55.992886Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.22'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+[33mtraducciones |[0m Escuchando en el puesto 3000
+[33mtraducciones |[0m Executing (default): CREATE TABLE IF NOT EXISTS `usuario` (`idUsuario` INTEGER auto_increment UNIQUE , `nombres` VARCHAR(255), `especialidad` VARCHAR(1000), `direccion` VARCHAR(1000), `descripcion` VARCHAR(5000), `logo` VARCHAR(255), `telefono` VARCHAR(350), `propietario` VARCHAR(350), `fotografia` VARCHAR(1000), `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, PRIMARY KEY (`idUsuario`)) ENGINE=InnoDB;
+[33mtraducciones |[0m Executing (default): SHOW INDEX FROM `usuario`
+[36mbasedatos_1  |[0m mbind: Operation not permitted
+[33mtraducciones |[0m Tablas Creadas
+[33mtraducciones |[0m Executing (default): SELECT `idUsuario`, `nombres`, `especialidad`, `direccion`, `descripcion`, `logo`, `telefono`, `propietario`, `fotografia`, `createdAt`, `updatedAt` FROM `usuario` AS `usuario`;
+[33mtraducciones |[0m Executing (default): SELECT `idUsuario`, `nombres`, `especialidad`, `direccion`, `descripcion`, `logo`, `telefono`, `propietario`, `fotografia`, `createdAt`, `updatedAt` FROM `usuario` AS `usuario`;
