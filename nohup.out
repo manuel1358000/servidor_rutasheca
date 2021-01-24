@@ -61,3 +61,7 @@ Attaching to servidorrutasheca_basedatos_1, traducciones
 [33mtraducciones |[0m Tablas Creadas
 [33mtraducciones |[0m Executing (default): SELECT `idUsuario`, `nombres`, `especialidad`, `direccion`, `descripcion`, `logo`, `telefono`, `propietario`, `fotografia`, `createdAt`, `updatedAt` FROM `usuario` AS `usuario`;
 [33mtraducciones |[0m Executing (default): SELECT `idUsuario`, `nombres`, `especialidad`, `direccion`, `descripcion`, `logo`, `telefono`, `propietario`, `fotografia`, `createdAt`, `updatedAt` FROM `usuario` AS `usuario`;
+[33mtraducciones |[0m Executing (default): SELECT `idUsuario`, `nombres`, `especialidad`, `direccion`, `descripcion`, `logo`, `telefono`, `propietario`, `fotografia`, `createdAt`, `updatedAt` FROM `usuario` AS `usuario`;
+[33mtraducciones |[0m Executing (default): SELECT `idUsuario`, `nombres`, `especialidad`, `direccion`, `descripcion`, `logo`, `telefono`, `propietario`, `fotografia`, `createdAt`, `updatedAt` FROM `usuario` AS `usuario`;
+[33mtraducciones |[0m Executing (default): SELECT `idUsuario`, `nombres`, `especialidad`, `direccion`, `descripcion`, `logo`, `telefono`, `propietario`, `fotografia`, `createdAt`, `updatedAt` FROM `usuario` AS `usuario`;
+[33mtraducciones |[0m Executing (default): SELECT `idUsuario`, `nombres`, `especialidad`, `direccion`, `descripcion`, `logo`, `telefono`, `propietario`, `fotografia`, `createdAt`, `updatedAt` FROM `usuario` AS `usuario`;
